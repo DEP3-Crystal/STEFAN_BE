@@ -28,7 +28,7 @@ public class Main {
         answer = input.nextInt();
         while (answer != 0) {
             if (classNames.size() != 0) {
-                switch (answer){
+                switch (answer) {
                     case 1:
                         rIndex = rand.nextInt(classNames.size());
 
@@ -39,7 +39,6 @@ public class Main {
                         break;
                     case 2:
                         System.out.println("All Students :  " + classNames + "\n");
-
                         break;
                     case 3:
                         System.out.println("The previously selected : " + chosen + "\n");
@@ -54,7 +53,6 @@ public class Main {
                 classNames.addAll(chosen);
                 chosen.clear();
                 System.out.println("FINISH LIST ,STARTING FROM BEGINNING");
-
             }
         }
     }
