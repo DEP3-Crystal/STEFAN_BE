@@ -1,10 +1,8 @@
-package crystal.example.randomPerson;
+package crystal.example.randomPersonProgram;
 
-import crystal.example.randomPerson.controller.GameControlFlow;
-import crystal.example.randomPerson.model.Students;
+import crystal.example.randomPersonProgram.controller.RandomProgram;
 
 import java.io.IOException;
-import java.util.*;
 
 public class Main {
     // Todo: create model  package and there define a Student model
@@ -13,11 +11,8 @@ public class Main {
     //define a  Class "Validator"
     // create dao package and there define a class for IO operation
     //  -define a getDataFromMemory,getDataFromFile,SaveData
-    //
-
     public static void main(String[] args) throws IOException {
-        Students students=new Students();
-        GameControlFlow gameControlFlow=new GameControlFlow();
-        gameControlFlow.startRandomChoosingProgram(students);
+        RandomProgram program=new RandomProgram();
+        program.start();
     }
 }

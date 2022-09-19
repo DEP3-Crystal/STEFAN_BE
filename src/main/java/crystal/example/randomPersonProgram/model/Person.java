@@ -1,16 +1,18 @@
-package crystal.example.randomPerson.model;
+package crystal.example.randomPersonProgram.model;
 
+
+import lombok.Data;
 
 import java.util.List;
-
-public class Student {
+@Data
+public class Person {
     private String name;
     private String fullName;
     private String lastname;
     private String email;
     private int chosenTimes;
 
-    public Student(String email) {
+    public Person(String email) {
         setEmail(email);
         setFullName();
         setLastname();
@@ -60,9 +62,7 @@ public class Student {
     public String getFullName() {
         return fullName;
     }
-
     public void setFullName() {
-
         this.fullName = this.email.replaceAll("((@.*)|[^a-zA-Z])+", " ").trim();
         this.fullName = this.fullName.substring(0, 1).toUpperCase() + this.fullName.substring(1);
         for (int i = 0; i < this.fullName.length(); i++) {
@@ -76,12 +76,12 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", email='" + email + '\'' +
-                ", chosenTimes=" + chosenTimes +
-                '}';
+        return "Name : " + name + ",\t" +
+                "FullName : " + fullName + ",\t" +
+                "Lastname : " + lastname + ",\t" +
+                "Email : " + email + ",\t" +
+                "ChosenTimes : " + chosenTimes;
     }
+
+
 }
