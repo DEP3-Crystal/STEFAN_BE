@@ -1,4 +1,4 @@
-package crystal.example.randomPersonProgram.model;
+package crystal.random_person_program.model;
 
 
 import lombok.Data;

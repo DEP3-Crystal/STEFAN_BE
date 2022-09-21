@@ -1,8 +1,8 @@
-package crystal.example.randomPersonProgram.dao;
+package crystal.random_person_program.dao;
 
 import com.opencsv.CSVWriter;
-import crystal.example.randomPersonProgram.Students;
-import crystal.example.randomPersonProgram.model.Person;
+import crystal.random_person_program.Students;
+import crystal.random_person_program.model.Person;
 
 import java.io.FileWriter;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package crystal.example.randomPersonProgram.dao;
+package crystal.random_person_program.dao;
 
-import crystal.example.randomPersonProgram.model.Person;
-import crystal.example.randomPersonProgram.Students;
+import crystal.random_person_program.model.Person;
+import crystal.random_person_program.Students;
 
 import java.io.*;
 import java.util.Scanner;

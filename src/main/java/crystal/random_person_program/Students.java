@@ -1,4 +1,4 @@
-package crystal.example.randomPersonProgram;
+package crystal.random_person_program;
 
 import java.util.Scanner;
 

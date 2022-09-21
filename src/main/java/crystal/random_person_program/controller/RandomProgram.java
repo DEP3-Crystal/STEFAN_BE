@@ -1,8 +1,8 @@
-package crystal.example.randomPersonProgram.controller;
+package crystal.random_person_program.controller;
 
-import crystal.example.randomPersonProgram.RandomPerson;
-import crystal.example.randomPersonProgram.dao.StudentsFromFile;
-import crystal.example.randomPersonProgram.dao.StudentsFromMemory;
+import crystal.random_person_program.RandomPerson;
+import crystal.random_person_program.dao.StudentsFromFile;
+import crystal.random_person_program.dao.StudentsFromMemory;
 
 import java.io.IOException;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
-package crystal.example.randomPersonProgram;
+package crystal.random_person_program;
 
-import crystal.example.randomPersonProgram.model.Person;
+import crystal.random_person_program.model.Person;
 
 import java.io.IOException;
 import java.util.*;
